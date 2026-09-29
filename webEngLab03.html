@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Waniya's Resume</title>
+
+    <style>
+        @media (max-width: 600px) {
+            body {
+                padding: 10px !important;
+            }
+
+            main {
+                padding: 15px !important;
+            }
+
+            nav a {
+                display: block;
+                margin: 8px 0;
+            }
+
+            img {
+                max-width: 100% !important;
+                height: auto !important;
+            }
+
+            video {
+                width: 100% !important;
+                height: auto;
+            }
+
+            audio {
+                max-width: 100%;
+            }
+
+            form {
+                width: 100% !important;
+                box-sizing: border-box;
+            }
+
+            input,
+            textarea {
+                box-sizing: border-box;
+                width: 100%;
+            }
+
+            h1 {
+                font-size: 28px;
+            }
+
+            h2 {
+                font-size: 22px;
+            }
+        }
+    </style>
+</head>
+
+<body style="font-family: Arial, sans-serif; background-color: #f4f4f4; margin: 0; padding: 20px; display: flex; justify-content: center; align-items: center; min-height: 100vh; box-sizing: border-box;">
+
+    <div style="width: 100%; max-width: 800px; background-color: #ffffff; padding: 0; box-shadow: 0px 0px 10px rgba(0,0,0,0.1); border-radius: 8px; text-align: center; overflow: hidden;">
+
+        <div style="background-color: #f3e8f5; padding: 30px 20px; border-bottom: 2px solid #e1cce6;">
+
+            <h1 style="color: #9E57A2; margin-top: 0;">
+                Waniya Jahanzeb
+            </h1>
+
+            <p style="margin-bottom: 15px;">
+                BS Computer Science Student
+            </p>
+
+            <header>
+                <nav>
+                    <a href="#home" style="color: blueviolet; text-decoration: none; font-weight: bold;">Home</a> |
+                    <a href="#about" style="color: blueviolet; text-decoration: none; font-weight: bold;">About</a> |
+                    <a href="#contact" style="color: blueviolet; text-decoration: none; font-weight: bold;">Contact</a>
+                </nav>
+            </header>
+
+        </div>
+
+        <main style="padding: 20px;">
+
+            <section id="home">
+                <h2 style="color: rgb(200, 151, 247);">
+                    Home
+                </h2>
+
+                <p>
+                    My name is
+                    <mark style="background-color: palevioletred;">
+                        Waniya Jahanzeb.
+                    </mark>
+                    Welcome to my resume webpage.
+                </p>
+            </section>
+
+            <section id="about">
+
+                <h2 style="color: rgb(200, 151, 247);">
+                    About Me
+                </h2>
+
+                <p>
+                    I am a student of BS Computer Science. My interests are
+                    <mark style="background-color: palevioletred;">
+                        Cybersecurity and Artificial Intelligence.
+                    </mark>
+                </p>
+
+                <h3 style="background-color: pink;">
+                    My Skills & Interests
+                </h3>
+
+                <ul style="list-style-position: inside; padding: 0;">
+                    <li>Development</li>
+                    <li>Programming</li>
+                    <li>Artificial Intelligence</li>
+                    <li>Cybersecurity</li>
+                </ul>
+
+            </section>
+
+            <section>
+
+                <h2 style="color: rgb(200, 151, 247);">
+                    My Profile
+                </h2>
+
+                <img
+                    src="Pictures.jpg"
+                    alt="My Picture"
+                    style="width: 300px; max-width: 100%; height: auto; display: block; margin: 0 auto;"
+                >
+
+            </section>
+            <section>
+
+                <h2 style="color: rgb(200, 151, 247);">
+                    Audio
+                </h2>
+
+                <audio controls style="filter: sepia(1) hue-rotate(250deg) saturate(3) brightness(0.9); border-radius: 30px; max-width: 100%;">
+                    <source src="mixkit-classical-vibes-4-684.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+
+            </section>
+            <section>
+
+                <h2 style="color: rgb(200, 151, 247);">
+                    Video
+                </h2>
+
+                <video
+                    width="400"
+                    controls
+                    style="display: block; margin: 0 auto; max-width: 100%; height: auto;"
+                >
+                    <source src="National Anthem of Pakistan.mp4" type="video/mp4">
+                    Your browser does not support the video element.
+                </video>
+
+            </section>
+            <section id="contact">
+
+                <h2 style="color: rgb(200, 151, 247);">
+                    Contact Me
+                </h2>
+
+                <form style="display: flex; flex-direction: column; width: 300px; max-width: 100%; gap: 10px; margin: 0 auto; text-align: left;">
+
+                    <label style="font-weight: bold;">
+                        Name:
+                    </label>
+
+                    <input
+                        type="text"
+                        placeholder="Your Name"
+                        style="padding: 5px; border: 2px solid #9E57A2; border-radius: 5px;"
+                    >
+
+                    <label style="font-weight: bold;">
+                        Email:
+                    </label>
+
+                    <input
+                        type="email"
+                        placeholder="Your Email"
+                        style="padding: 5px; border: 2px solid #9E57A2; border-radius: 5px;"
+                    >
+
+                    <label style="font-weight: bold;">
+                        Message:
+                    </label>
+
+                    <textarea
+                        rows="4"
+                        placeholder="Your Message"
+                        style="padding: 5px; border: 2px solid #9E57A2; border-radius: 5px;"
+                    ></textarea>
+
+                    <button
+                        type="submit"
+                        style="background-color: #9E57A2; color: white; padding: 10px; border: none; border-radius: 5px; cursor: pointer; font-weight: bold;"
+                    >
+                        Submit
+                    </button>
+
+                </form>
+
+            </section>
+
+            <section>
+
+                <h2 style="color: #9E57A2;">
+                    Contact Information
+                </h2>
+
+                <p>
+                    <strong>Email:</strong>
+                    <mark style="background-color: palevioletred;">
+                        waniya@gmail.com
+                    </mark>
+                    <br>
+
+                    <strong>Phone:</strong>
+                    <mark style="background-color: palevioletred;">
+                        +92 300 1234567
+                    </mark>
+                    <br>
+
+                    <strong>Location:</strong>
+                    Pakistan
+                </p>
+
+                <p>
+                    <strong>Follow me:</strong>
+
+                    <a
+                        href="https://instagram.com/abc"
+                        target="_blank"
+                        style="color: #9E57A2; text-decoration: none; font-weight: bold;"
+                    >
+                        Instagram
+                    </a>
+                    |
+
+                    <a
+                        href="https://facebook.com/abc"
+                        target="_blank"
+                        style="color: #9E57A2; text-decoration: none; font-weight: bold;"
+                    >
+                        Facebook
+                    </a>
+                </p>
+
+            </section>
+
+        </main>
+
+    </div>
+
+</body>
+</html>
